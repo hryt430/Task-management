@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"strings"
 
-	tokenService "github.com/hryt430/task-management/internal/modules/auth/usecase/token"
-	"github.com/hryt430/task-management/pkg/token"
-	"github.com/hryt430/task-management/pkg/utils"
+	tokenService "auth-service/internal/usecase/token"
+	"auth-service/pkg/token"
+	"auth-service/pkg/utils"
 
 	"github.com/gin-gonic/gin"
 )

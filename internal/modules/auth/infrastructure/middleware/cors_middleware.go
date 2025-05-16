@@ -1,10 +1,9 @@
 package middleware
 
 import (
+	"auth-service/pkg/utils"
 	"net/http"
 	"time"
-
-	"github.com/hryt430/task-management/pkg/utils"
 
 	"github.com/gin-gonic/gin"
 )

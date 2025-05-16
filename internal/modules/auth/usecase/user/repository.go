@@ -3,7 +3,7 @@ package userService
 import (
 	"context"
 
-	"github.com/hryt430/task-management/internal/modules/auth/domain/entity"
+	"auth-service/internal/domain/entity"
 
 	"github.com/google/uuid"
 )
