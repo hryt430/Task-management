@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	authService "github.com/hryt430/task-management/internal/modules/auth/usecase/auth"
-	"github.com/hryt430/task-management/pkg/utils"
+	authService "auth-service/internal/usecase/auth"
+	"auth-service/pkg/utils"
 
 	"github.com/gin-gonic/gin"
 )

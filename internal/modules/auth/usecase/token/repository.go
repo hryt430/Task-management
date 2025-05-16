@@ -1,8 +1,8 @@
 package tokenService
 
 import (
-	"github.com/hryt430/task-management/internal/modules/auth/domain/entity"
-	"github.com/hryt430/task-management/pkg/token"
+	"auth-service/internal/domain/entity"
+	"auth-service/pkg/token"
 )
 
 type TokenUseCase interface {

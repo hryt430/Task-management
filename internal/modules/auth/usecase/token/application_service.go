@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/hryt430/task-management/internal/modules/auth/domain/entity"
-	userService "github.com/hryt430/task-management/internal/modules/auth/usecase/user"
+	"auth-service/internal/domain/entity"
+	userService "auth-service/internal/usecase/user"
 
-	"github.com/hryt430/task-management/pkg/token"
+	"auth-service/pkg/token"
 
 	"github.com/google/uuid"
 )
